@@ -6,4 +6,7 @@ package br.calebe.ticketmachine.exception;
  */
 public class PapelMoedaInvalidaException extends Exception {
     
+    public void erro() {
+        System.out.println("Nota invalida");
+    }
 }
